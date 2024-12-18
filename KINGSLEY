@@ -1,0 +1,545 @@
+
+!SESSION 2024-12-17 09:05:45.323 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.23
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clearPersistedState
+
+!ENTRY com.cerner.genesis.app.core.Application 2 0 2024-12-17 09:05:48.038
+!MESSAGE [JVM Start Up Time: 2,880 milliseconds]
+
+!ENTRY com.cerner.revenuecycle.ares.application.library.AresApplicationLibrary 2 0 2024-12-17 09:05:49.867
+!MESSAGE [my_experience_configuration =141 milliseconds.]
+
+!ENTRY com.cerner.revenuecycle.ares.application.library.AresApplicationLibrary 2 0 2024-12-17 09:05:49.867
+!MESSAGE [Total_time_to_initialize_AresApplication_Library = 141 milliseconds.]
+
+!ENTRY com.cerner.revenuecycle.ares.application.library.internal.ApplicationProvider 2 0 2024-12-17 09:05:49.945
+!MESSAGE [Time to parse JSON for market = US and application = com.cerner.iaware.content.app.rca.Personalized | JSON_parsing_time = 47 milliseconds]
+
+!ENTRY com.cerner.iaware.library.content.loader.application.AppResolver 2 0 2024-12-17 09:05:49.960
+!MESSAGE [Opening a personalized application ([com.cerner.iaware.content.app.rca.Personalized]US:NONE:legacy) using the system default]
+
+!ENTRY com.cerner.revenuecycle.ares.application.library.AresApplicationLibrary 2 0 2024-12-17 09:05:49.960
+!MESSAGE [my_experience_configuration =0 milliseconds.]
+
+!ENTRY com.cerner.revenuecycle.ares.application.library.AresApplicationLibrary 2 0 2024-12-17 09:05:49.960
+!MESSAGE [Total_time_to_initialize_AresApplication_Library = 0 milliseconds.]
+
+!ENTRY org.eclipse.ui 2 0 2024-12-17 09:05:50.945
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-17 09:05:50.945
+!MESSAGE Commands should really have a category: plug-in='com.cerner.scheduling.ui.resource.view', id='com.cerner.scheduling.ui.resource.view.commands.cutCommand', categoryId='com.cerner.scheduling.ui.resource.view.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-17 09:05:50.945
+!MESSAGE Commands should really have a category: plug-in='com.cerner.scheduling.ui.resource.view', id='com.cerner.scheduling.ui.resource.view.commands.pasteCommand', categoryId='com.cerner.scheduling.ui.resource.view.commands.category'
+
+!ENTRY com.cerner.iaware.featuretoggles.hyperion.HyperionFeatureTogglesManager 2 0 2024-12-17 09:05:51.367
+!MESSAGE [Enabled_Features=[urn:cerner:revenue-cycle:scheduling-services:enable-logical-domain-security, urn:cerner:revenue-cycle:scheduling:orion-add-appointment-uplift, urn:cerner:revenue-cycle:scheduling:reorder-appts-first-available, urn:cerner:revenue-cycle:scheduling:fix-alva-errors-for-incomplete-data, urn:cerner:revenue-cycle:scheduling:multiple-recurring-appointments, urn:cerner:revenue-cycle:scheduling-services:eliminate-cycling-alva-for-scheduling-security, scheduling.feature.view.refreshButton.enabled, urn:cerner:revenue-cycle:cpa:rebill_specific_lines_on_professional_claim, urn:cerner:millennium:RCA-max-charge-quantity, urn:cerner:revenue-cycle:scheduling:orion-add-appointment-plus-2018.08, urn:cerner:revenue-cycle:cpa:charge-grouping-tool-criteria-flex-fields-udf, scheduling.feature.display.authorizations.enabled, scheduling.feature.non.scheduled.encounters.enabled, urn:cerner:feature-toggles:rate-limiting, urn:cerner:revenue-cycle:scheduling:delay-scheduling-outbound-for-cancel-related-appointments, urn:cerner:revenue-cycle:scheduling-services:enable-logical-domain-security-ml-schedule, urn:cerner:revenue-cycle:scheduling-services:enable-logical-domain-security-phase-two, urn:cerner:revenue-cycle:contract-and-remit-drg-enhancement, urn:cerner:revenue-cycle:scheduling:blank-enter-details-correction]]
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:05:51.445
+!MESSAGE [configuration_document_service_time = 16 milliseconds]
+
+!ENTRY org.eclipse.ui 2 0 2024-12-17 09:05:52.226
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-17 09:05:52.226
+!MESSAGE Commands should really have a category: plug-in='com.cerner.scheduling.ui.resource.view', id='com.cerner.scheduling.ui.resource.view.commands.cutCommand', categoryId='com.cerner.scheduling.ui.resource.view.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-17 09:05:52.226
+!MESSAGE Commands should really have a category: plug-in='com.cerner.scheduling.ui.resource.view', id='com.cerner.scheduling.ui.resource.view.commands.pasteCommand', categoryId='com.cerner.scheduling.ui.resource.view.commands.category'
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:05:53.226
+!MESSAGE [configuration_document_service_time = 16 milliseconds]
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:05:53.226
+!MESSAGE [configuration_document_service_time = 0 milliseconds]
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:05:53.320
+!MESSAGE [configuration_document_service_time = 63 milliseconds]
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:05:53.335
+!MESSAGE [configuration_document_service_time = 15 milliseconds]
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:05:53.538
+!MESSAGE [configuration_document_service_time = 0 milliseconds]
+
+!ENTRY com.cerner.revenuecycle.featuretoggles.app.ml.FeatureToggleManagerImpl 2 0 2024-12-17 09:05:54.054
+!MESSAGE [Enabled_Features=[urn:cerner:revenue-cycle:scheduling-services:enable-logical-domain-security, urn:cerner:revenue-cycle:scheduling:orion-add-appointment-uplift, urn:cerner:revenue-cycle:scheduling:reorder-appts-first-available, urn:cerner:revenue-cycle:scheduling:fix-alva-errors-for-incomplete-data, urn:cerner:revenue-cycle:scheduling:multiple-recurring-appointments, urn:cerner:revenue-cycle:scheduling-services:eliminate-cycling-alva-for-scheduling-security, scheduling.feature.view.refreshButton.enabled, urn:cerner:revenue-cycle:cpa:rebill_specific_lines_on_professional_claim, urn:cerner:millennium:RCA-max-charge-quantity, urn:cerner:revenue-cycle:scheduling:orion-add-appointment-plus-2018.08, urn:cerner:revenue-cycle:cpa:charge-grouping-tool-criteria-flex-fields-udf, scheduling.feature.display.authorizations.enabled, scheduling.feature.non.scheduled.encounters.enabled, urn:cerner:feature-toggles:rate-limiting, urn:cerner:revenue-cycle:scheduling:delay-scheduling-outbound-for-cancel-related-appointments, urn:cerner:revenue-cycle:scheduling-services:enable-logical-domain-security-ml-schedule, urn:cerner:revenue-cycle:scheduling-services:enable-logical-domain-security-phase-two, urn:cerner:revenue-cycle:contract-and-remit-drg-enhancement, urn:cerner:revenue-cycle:scheduling:blank-enter-details-correction]]
+
+!ENTRY com.cerner.genesis.app.core.Application 2 0 2024-12-17 09:05:54.101
+!MESSAGE [Application Started At: [1734451548038], Application Running At: [1734451554101], Pre-authentication Startup Time: [79], Total Startup Time: [4767] milliseconds (excluding login wait time)]
+
+!ENTRY com.cerner.genesis.app.core.Application 2 0 2024-12-17 09:05:54.101
+!MESSAGE [Stopwatch Time: [4767] milliseconds (excluding the login wait time)]
+
+!ENTRY com.cerner.genesis.platform.rcp.hook.WorkbenchLifecycleHooks 2 0 2024-12-17 09:05:54.117
+!MESSAGE [The WorkbenchLifecycle hook [com.cerner.genesis.application.launcher.ApplicationLauncher] generated the following message at system time [1734451552445]: No PowerChartLaunchHandler instances were found, launching will be disabled]
+
+!ENTRY com.cerner.genesis.app.client.RCPApplicationEventHandler 2 0 2024-12-17 09:05:54.132
+!MESSAGE [Application ID [[com.cerner.iaware.content.app.rca.Personalized]US:NONE:legacy];  Application Name [United States Base Experience]; Application Definition Version [8.0]; Application Definition Revision [dc6f2c26-1e34-43df-82ad-2800c38cd53f]; Application Version [5.11.32]]
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:05:54.445
+!MESSAGE [configuration_document_service_time = 16 milliseconds]
+
+!ENTRY com.cerner.iaware.service.lookup.nimrod.NimrodServiceUrlLookup 4 0 2024-12-17 09:05:54.601
+!MESSAGE [Exception while loading services from the Orion directory.]
+!STACK 0
+org.apache.http.client.HttpResponseException: status code: 404, reason phrase: Not Found
+	at org.apache.http.impl.client.AbstractResponseHandler.handleResponse(AbstractResponseHandler.java:70)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:66)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:52)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:223)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:165)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:140)
+	at com.cerner.iaware.service.lookup.nimrod.NimrodServiceUrlLookup.initializeOrionURLCache(NimrodServiceUrlLookup.java:270)
+	at com.cerner.iaware.service.lookup.nimrod.NimrodServiceUrlLookup.getServiceUrl(NimrodServiceUrlLookup.java:171)
+	at com.cerner.iaware.message.notifications.kingpin.MessageCenterResolverUtility$URLHolder.<clinit>(MessageCenterResolverUtility.java:36)
+	at com.cerner.iaware.message.notifications.kingpin.MessageCenterResolverUtility.getBaseURL(MessageCenterResolverUtility.java:31)
+	at com.cerner.iaware.message.notifications.kingpin.KingpinMessageCenterCountRetriever.lambda$new$0(KingpinMessageCenterCountRetriever.java:67)
+	at com.cerner.genesis.common.client.utils.function.MemoizedSupplier.get(MemoizedSupplier.java:38)
+	at com.cerner.iaware.message.notifications.kingpin.KingpinMessageCenterCountRetriever.getNewMessageCount(KingpinMessageCenterCountRetriever.java:111)
+	at com.cerner.iaware.messagecenter.notifications.internal.job.MessageCenterNotificationJob.runPrivileged(MessageCenterNotificationJob.java:52)
+	at com.cerner.genesis.common.client.eclipse.jobs.PrivilegedJob$1.run(PrivilegedJob.java:52)
+	at com.cerner.genesis.common.client.eclipse.jobs.PrivilegedJob$1.run(PrivilegedJob.java:48)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.cerner.genesis.common.client.eclipse.jobs.PrivilegedJob.run(PrivilegedJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.cerner.revenuecycle.interceptors.enterprise.client.internal.DefaultEnterpriseClientCallLogger 2 0 2024-12-17 09:09:31.166
+!MESSAGE [The enterprise client call 659927 took 3578ms to complete. The time to prepare the request was 0ms and the time to translate the reply was 15ms. request_name=659927 total_time_in_ms=3578 prepare_time_in_ms=0 translate_time_in_ms=15]
+!STACK 0
+java.lang.Exception
+	at com.cerner.revenuecycle.interceptors.enterprise.client.internal.DefaultEnterpriseClientCallLogger.logExcessiveCallTime(DefaultEnterpriseClientCallLogger.java:42)
+	at com.cerner.revenuecycle.interceptors.enterprise.client.EnterpriseClientLoggerInterceptor$InterceptorFundamentalDelegate.end(EnterpriseClientLoggerInterceptor.java:232)
+	at com.cerner.system.enterprise.client.arctic.FundamentalCallImpl.end(FundamentalCallImpl.java:154)
+	at com.cerner.system.enterprise.client.arctic.SrvCall$1.run(SrvCall.java:160)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.cerner.system.enterprise.client.arctic.SrvCall.invoke(SrvCall.java:81)
+	at com.cerner.system.enterprise.client.arctic.FundamentalCallImpl.call(FundamentalCallImpl.java:116)
+	at com.cerner.service.scheduling.rca.ECFutureRequestService.getFutureRequests(ECFutureRequestService.java:157)
+	at com.cerner.service.scheduling.rca.ECFutureRequestService.getFutureRequestsByQueue(ECFutureRequestService.java:91)
+	at com.cerner.scheduling.app.ml.internal.FutureRequestManagerImpl.getFutureRequestsByQueueId(FutureRequestManagerImpl.java:181)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController$1.run(FutureAppointmentRequestsController.java:415)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at com.cerner.scheduling.ui.appointment.request.future.view.swt.SWTFutureAppointmentRequestsView.showBusyWhile(SWTFutureAppointmentRequestsView.java:442)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController.refresh(FutureAppointmentRequestsController.java:380)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController$InternalFutureAppointmentRequestsViewListener.applyPreferences(FutureAppointmentRequestsController.java:682)
+	at com.cerner.scheduling.ui.appointment.request.future.view.swt.SWTFutureAppointmentRequestsView.notifyFutureAppointmentRequestsViewListeners(SWTFutureAppointmentRequestsView.java:2070)
+	at com.cerner.scheduling.ui.appointment.request.future.view.swt.SWTFutureAppointmentRequestsView.updateTableHeadersAndRefreshView(SWTFutureAppointmentRequestsView.java:2326)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController.updateTableHeadersFromPreferences(FutureAppointmentRequestsController.java:315)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController.<init>(FutureAppointmentRequestsController.java:236)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController.<init>(FutureAppointmentRequestsController.java:183)
+	at com.cerner.scheduling.gadget.appointmentrequests.queue.AppointmentRequestsQueueGadget.initializeChildGadget(AppointmentRequestsQueueGadget.java:205)
+	at com.cerner.revenuecycle.gadget.common.AbstractRevenueCycleSWTGadget.initialize(AbstractRevenueCycleSWTGadget.java:150)
+	at com.cerner.genesis.gadget.container.rcp.swt.RCPSWTGadgetContainer.<init>(RCPSWTGadgetContainer.java:202)
+	at com.cerner.genesis.gadget.container.rcp.swt.RCPSWTGadgetContainer.<init>(RCPSWTGadgetContainer.java:109)
+	at com.cerner.genesis.gadget.rich.view.RichGadgetView.createContainer(RichGadgetView.java:339)
+	at com.cerner.genesis.gadget.rich.view.RichGadgetView$2.createRCPContainer(RichGadgetView.java:234)
+	at com.cerner.genesis.gadget.rich.view.internal.DefaultGadgetContextHandler.activate(DefaultGadgetContextHandler.java:251)
+	at com.cerner.genesis.gadget.rich.view.internal.DefaultGadgetContextHandler.<init>(DefaultGadgetContextHandler.java:109)
+	at com.cerner.genesis.gadget.rich.view.internal.DefaultGadgetContextHandler.<init>(DefaultGadgetContextHandler.java:76)
+	at com.cerner.genesis.gadget.rich.view.RichGadgetView.createPartControl(RichGadgetView.java:276)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:994)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:994)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:109)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4770)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:228)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.lambda$4(StackRenderer.java:975)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1069)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:773)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$init$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at com.cerner.genesis.app.client.RCPApplicationEventHandler.runEventQueue(RCPApplicationEventHandler.java:444)
+	at com.cerner.genesis.app.core.Application$2.run(Application.java:323)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.cerner.genesis.app.core.Application.start(Application.java:318)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.cerner.revenuecycle.interceptors.enterprise.client.internal.DefaultEnterpriseClientCallLogger 2 0 2024-12-17 09:09:34.072
+!MESSAGE [The enterprise client call 659927 took 2015ms to complete. The time to prepare the request was 0ms and the time to translate the reply was 15ms. request_name=659927 total_time_in_ms=2015 prepare_time_in_ms=0 translate_time_in_ms=15]
+!STACK 0
+java.lang.Exception
+	at com.cerner.revenuecycle.interceptors.enterprise.client.internal.DefaultEnterpriseClientCallLogger.logExcessiveCallTime(DefaultEnterpriseClientCallLogger.java:42)
+	at com.cerner.revenuecycle.interceptors.enterprise.client.EnterpriseClientLoggerInterceptor$InterceptorFundamentalDelegate.end(EnterpriseClientLoggerInterceptor.java:232)
+	at com.cerner.system.enterprise.client.arctic.FundamentalCallImpl.end(FundamentalCallImpl.java:154)
+	at com.cerner.system.enterprise.client.arctic.SrvCall$1.run(SrvCall.java:160)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.cerner.system.enterprise.client.arctic.SrvCall.invoke(SrvCall.java:81)
+	at com.cerner.system.enterprise.client.arctic.FundamentalCallImpl.call(FundamentalCallImpl.java:116)
+	at com.cerner.service.scheduling.rca.ECFutureRequestService.getFutureRequests(ECFutureRequestService.java:157)
+	at com.cerner.service.scheduling.rca.ECFutureRequestService.getFutureRequestsByQueue(ECFutureRequestService.java:91)
+	at com.cerner.scheduling.app.ml.internal.FutureRequestManagerImpl.getFutureRequestsByQueueId(FutureRequestManagerImpl.java:181)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController$1.run(FutureAppointmentRequestsController.java:415)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at com.cerner.scheduling.ui.appointment.request.future.view.swt.SWTFutureAppointmentRequestsView.showBusyWhile(SWTFutureAppointmentRequestsView.java:442)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController.refresh(FutureAppointmentRequestsController.java:380)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController.valueChangedOnFilterControl(FutureAppointmentRequestsController.java:590)
+	at com.cerner.scheduling.ui.appointment.request.filter.group.internal.FilterControlGroup.valueChangedOnFilterControl(FilterControlGroup.java:101)
+	at com.cerner.scheduling.ui.appointment.request.filter.internal.FilterControl.notifyAllListenersOfChange(FilterControl.java:110)
+	at com.cerner.scheduling.ui.appointment.request.filter.internal.RecentlyViewedQueuesFilterControl$ViewListener.valueChanged(RecentlyViewedQueuesFilterControl.java:150)
+	at com.cerner.scheduling.ui.appointment.request.filter.internal.RecentlyViewedQueuesFilterControl$ViewListener.valueChanged(RecentlyViewedQueuesFilterControl.java:145)
+	at com.cerner.scheduling.ui.appointment.request.filter.view.internal.RecentlyViewedQueuesFilterView.notifyAllListenersOfValueChange(RecentlyViewedQueuesFilterView.java:91)
+	at com.cerner.scheduling.ui.appointment.request.filter.view.impl.internal.SWTRecentlyViewedQueuesFilterView.access$300(SWTRecentlyViewedQueuesFilterView.java:58)
+	at com.cerner.scheduling.ui.appointment.request.filter.view.impl.internal.SWTRecentlyViewedQueuesFilterView$2.run(SWTRecentlyViewedQueuesFilterView.java:213)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4152)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3256)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at com.cerner.genesis.app.client.RCPApplicationEventHandler.runEventQueue(RCPApplicationEventHandler.java:444)
+	at com.cerner.genesis.app.core.Application$2.run(Application.java:323)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.cerner.genesis.app.core.Application.start(Application.java:318)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.cerner.genesis.gadget.web.core.utils.browser.internal.DefaultGadgetOptInLoader 2 0 2024-12-17 09:09:42.572
+!MESSAGE [Gadgets Opting into Edge: [com.cerner.revenuecycle.soarian.encounter.insurances, com.cerner.registration.gadget.authorizations.appointments, com.cerner.registration.gadget.authorizations.encounters, com.cerner.revenuecycle.soarian.patient.insurances, com.cerner.iaware.messagecenter.compose.web, com.cerner.registration.gadget.authorizations.registration, com.cerner.revenuecycle.behavioralhealth.balancespayments.registration, com.cerner.revenuecycle.soarian.encounter.balances, com.cerner.iaware.messagecenter.inbox.web, com.cerner.revenuecycle.soarian.guarantor.balances, com.cerner.revenuecycle.behavioralhealth.balancespayments.appointments]]
+
+!ENTRY com.cerner.revenuecycle.ares.browser.internal.AresBrowserFactory 2 0 2024-12-17 09:09:42.572
+!MESSAGE [Classes Opting into Edge: [com.cerner.scheduling.ui.internal.calendar.block.appointment.history.BlockHistoryDialog, com.cerner.scheduling.ui.resource.calendar.ResourceCalendarComposite, com.cerner.scheduling.ui.availability.view.internal.AvailabilityViewComposite, com.cerner.scheduling.ui.resource.comment.history.ResourceCommentsHistoryDialog, com.cerner.scheduling.ui.patient.tracking.internal.browser.PTBrowserView, com.cerner.scheduling.ui.patient.calendar.view.SWTPatientCalendarView, com.cerner.scheduling.ui.patient.tracking.phoenix.internal.browser.impl.PatientTrackingBrowserImpl, com.cerner.scheduling.cancel.ui.internal.swt.SWTModalCancelRelatedAppointmentsComponent, com.cerner.scheduling.suggest.ui.internal.view.swt.SWTAppointmentSuggestionBrowserView, com.cerner.scheduling.recur.ui.internal.view.swt.SWTAppointmentRecurBrowserView, com.cerner.scheduling.reschedule.ui.internal.swt.SWTModalRescheduleRelatedAppointmentsComponent, com.cerner.scheduling.appointment.browser.ui.internal.view.OrionAddAppointmentView, com.cerner.scheduling.appointment.ui.kraken.internal.browser.function.factory.SWTBrowserFunctionManagerFactory, com.cerner.medicalnecessity.ui.internal.browser.BrowserMedicalNecessityView, com.cerner.registration.questionnaire.ui.internal.summary.html.HTMLMSPQSummaryView, com.cerner.registration.questionnaire.ui.internal.answers.html.HTMLMSPQAnswersView, com.cerner.eligibility.ui.details.financialclearance.internal.SWTPreviousFinancialClearanceEligibilityDetailsView, com.cerner.eligibility.ui.details.financialclearance.internal.SWTFinancialClearanceEligibilityDetailsView, com.cerner.eligibility.ui.details.internal.SWTEligibilityDetailsView, com.cerner.eligibility.ui.details.internal.BrowserEligibilityResponseView, com.cerner.demographics.ui.summary.internal.SummaryView, com.cerner.search.person.ui.external.internal.ui.AbstractSWTExternalSearchView, com.cerner.revenuecycle.external.person.retrieve.jupiter.internal.ui.SWTRetrieveExternalPersonView, com.cerner.registration.authorizations.ui.internal.browser.OrionBrowserFactory, com.cerner.revenuecycle.external.person.alias.saturn.internal.ui.SWTRequestExternalNHINAliasView, com.cerner.scheduling.batchreschedule.ui.revenuecycle.internal.dialog.BatchRescheduleAppointmentsDialog, com.cerner.financials.ui.applyselfpayremittance.ApplySelfPayRemittanceHTMLController, com.cerner.financials.ui.modifyformalpaymentplan.ModifyFormalPaymentPlanHTMLDialog, com.cerner.registration.address.verification.ui.internal.BrowserAddressVerificationResultsView]]
+
+!ENTRY com.cerner.revenuecycle.ares.browser.internal.AresBrowserFactory 2 0 2024-12-17 09:09:42.572
+!MESSAGE [Parent Classes of Classes Opting into Edge: [com.cerner.iaware.orion.browser.OrionBrowser, com.cerner.financials.ui.entityview.list.HTMLEntityPreviewPane, com.cerner.financials.ui.entityview.EntityListViewImpl, com.cerner.financials.ui.entityview.BaseEntityViewController, com.cerner.financials.ui.entityview.detail.HtmlEntityDetailView]]
+
+!ENTRY com.cerner.genesis.mpage.gadget.internal.MPagesURLResolver 2 0 2024-12-17 09:09:43.510
+!MESSAGE [MPages Gadget URL: https://ihcutea.cernerworkswan.com/discern/p351.ihc_ut.cernerasp.com/mpages/reports/ih_rc_launch_html?parameters=%5EMINE%5E%2C+%5ECHT%5E%2C+8804523.0%2C+0.0%2C+0.0%2C+0.0%2C+3919826.0%2C+22830782.0%2C+0.0%2C+%5Erevcycle.exe%5E%2C+%5Eih_mp_additional_demographics%5E%2C+0&login=BASIC]
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:09:44.325
+!MESSAGE [configuration_document_service_time = 16 milliseconds]
+
+!ENTRY com.cerner.genesis.app.core 1 0 2024-12-17 09:09:44.608
+!MESSAGE com.cerner.common.servicelocator.internal.util.Logger log
+Invalid scope() setting to default.
+
+!ENTRY com.cerner.genesis.gadget.container.rcp.swt.RCPSWTGadgetContainer 4 0 2024-12-17 09:09:45.701
+!MESSAGE [An exception occurred while initializing the gadget][User: selewis, Domain: p351.ihc_ut.cernerasp.com, Version: 5.11.32]
+!STACK 0
+java.lang.IllegalStateException: Missing active perspective
+	at com.cerner.revenuecycle.ares.sections.DefaultAresSectionTitleDelegate.getPerspectiveDisplay(DefaultAresSectionTitleDelegate.java:149)
+	at com.cerner.revenuecycle.ares.sections.chart.ChartSectionContributor$ChartSectionTitleDelegate.getTitle(ChartSectionContributor.java:114)
+	at com.cerner.genesis.sections.client.PrototypeSection.getTitle(PrototypeSection.java:236)
+	at com.cerner.genesis.sections.client.manager.SectionManager.getTitle(SectionManager.java:651)
+	at com.cerner.genesis.sections.client.manager.SectionManager.setWindowLabel(SectionManager.java:1107)
+	at com.cerner.genesis.sections.client.manager.SectionManager.refreshApplicationTitle(SectionManager.java:1402)
+	at com.cerner.genesis.platform.manager.loki.LokiPlatformManager.gadgetWorkInProgressCompleted(LokiPlatformManager.java:1714)
+	at com.cerner.genesis.platform.manager.loki.internal.rcp.RCPPlatform.endWorkInProgress(RCPPlatform.java:228)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.endWorkflowInProgress(AddAppointmentGadget.java:808)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.createWorkflowController(AddAppointmentGadget.java:1504)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.createWorkflowController(AddAppointmentGadget.java:1495)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.displayWorkFlow(AddAppointmentGadget.java:1489)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.displayWorkFlow(AddAppointmentGadget.java:1428)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.access$6200(AddAppointmentGadget.java:228)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget$OpenCompleteFutureRequestGadgetCommunicationEventListener.handleGadgetCommunicationEvent(AddAppointmentGadget.java:2290)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.AresGadgetCommunicationManager.notifyGadgetCommunicationEventListeners(AresGadgetCommunicationManager.java:258)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.AbstractGadgetInitializationHandler.notifyGadgetCommunicationEventListeners(AbstractGadgetInitializationHandler.java:178)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.AbstractGadgetInitializationHandler.access$100(AbstractGadgetInitializationHandler.java:34)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.AbstractGadgetInitializationHandler$1.gadgetInitialized(AbstractGadgetInitializationHandler.java:141)
+	at com.cerner.genesis.gadget.container.rcp.swt.RCPSWTGadgetContainer.<init>(RCPSWTGadgetContainer.java:206)
+	at com.cerner.genesis.gadget.container.rcp.swt.RCPSWTGadgetContainer.<init>(RCPSWTGadgetContainer.java:109)
+	at com.cerner.genesis.gadget.rich.view.RichGadgetView.createContainer(RichGadgetView.java:339)
+	at com.cerner.genesis.gadget.rich.view.RichGadgetView$2.createRCPContainer(RichGadgetView.java:234)
+	at com.cerner.genesis.gadget.rich.view.internal.DefaultGadgetContextHandler.activate(DefaultGadgetContextHandler.java:251)
+	at com.cerner.genesis.gadget.rich.view.internal.DefaultGadgetContextHandler$1.sectionActivated(DefaultGadgetContextHandler.java:123)
+	at com.cerner.genesis.sections.client.manager.SectionManager.notifySectionActivated(SectionManager.java:802)
+	at com.cerner.genesis.sections.client.manager.SectionManager$SectionManagerBannerListener.bannerLoaded(SectionManager.java:2493)
+	at com.cerner.genesis.banner.ContextBanner.addListener(ContextBanner.java:47)
+	at com.cerner.genesis.sections.client.manager.SectionManager.openPerspectiveInSection(SectionManager.java:1066)
+	at com.cerner.genesis.platform.manager.loki.LokiPlatformManager.openPerspectiveInSection(LokiPlatformManager.java:1324)
+	at com.cerner.genesis.platform.manager.loki.LokiPlatformManager.openSection(LokiPlatformManager.java:1098)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.CompleteAppointmentRequestPlusEventHandler.openSections(CompleteAppointmentRequestPlusEventHandler.java:64)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.AbstractGadgetInitializationHandler.handleGadgetInitialization(AbstractGadgetInitializationHandler.java:157)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.CompleteAppointmentRequestPlusEventHandler.execute(CompleteAppointmentRequestPlusEventHandler.java:54)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.AresGadgetCommunicationManager.communicateGadgetEvent(AresGadgetCommunicationManager.java:190)
+	at com.cerner.scheduling.gadget.appointmentrequests.queue.AppointmentRequestsQueueGadget$InternalFutureAppointmentRequestsControllerListener.completeAppointmentRequests(AppointmentRequestsQueueGadget.java:413)
+	at com.cerner.scheduling.gadget.appointmentrequests.queue.AppointmentRequestsQueueGadget$InternalFutureAppointmentRequestsControllerListener.openCompleteRequestUI(AppointmentRequestsQueueGadget.java:378)
+	at com.cerner.scheduling.gadget.appointmentrequests.queue.AppointmentRequestsQueueGadget$InternalFutureAppointmentRequestsControllerListener.futureAppointmentRequestCompleted(AppointmentRequestsQueueGadget.java:368)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController$InternalFutureAppointmentRequestsViewListener.lambda$notifyListenersOfCompletingFutureRequest$4(FutureAppointmentRequestsController.java:832)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController$InternalFutureAppointmentRequestsViewListener.notifyListenersOfCompletingFutureRequest(FutureAppointmentRequestsController.java:832)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController$InternalFutureAppointmentRequestsViewListener.handleCompleteRequest(FutureAppointmentRequestsController.java:753)
+	at com.cerner.scheduling.ui.appointment.request.future.FutureAppointmentRequestsController$InternalFutureAppointmentRequestsViewListener.completeRequest(FutureAppointmentRequestsController.java:625)
+	at com.cerner.scheduling.ui.appointment.request.future.view.swt.SWTFutureAppointmentRequestsView.completeRequest(SWTFutureAppointmentRequestsView.java:2103)
+	at com.cerner.scheduling.ui.appointment.request.future.view.swt.SWTFutureAppointmentRequestsView.notifyFutureAppointmentRequestsViewListeners(SWTFutureAppointmentRequestsView.java:2001)
+	at com.cerner.scheduling.ui.appointment.request.future.view.swt.SWTFutureAppointmentRequestsView$ViewAction.run(SWTFutureAppointmentRequestsView.java:2248)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at com.cerner.genesis.app.client.RCPApplicationEventHandler.runEventQueue(RCPApplicationEventHandler.java:444)
+	at com.cerner.genesis.app.core.Application$2.run(Application.java:323)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.cerner.genesis.app.core.Application.start(Application.java:318)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.cerner.genesis.mpage.gadget.internal.MPagesURLResolver 2 0 2024-12-17 09:09:45.724
+!MESSAGE [MPages Gadget URL: https://ihcutea.cernerworkswan.com/discern/p351.ihc_ut.cernerasp.com/mpages/reports/ih_rc_launch_html?parameters=%5EMINE%5E%2C+%5ECHT%5E%2C+8804523.0%2C+0.0%2C+0.0%2C+0.0%2C+3919826.0%2C+22830782.0%2C+0.0%2C+%5Erevcycle.exe%5E%2C+%5Eih_mp_additional_demographics%5E%2C+0&login=BASIC]
+
+!ENTRY com.cerner.scheduling.appointment.workflow.internal.input.broker.OrderFormatFieldsConversionUtility 2 0 2024-12-17 09:09:55.846
+!MESSAGE [The following field with codeset 220 is unsupported: Order Location (format id: 25,390,505).]
+
+!ENTRY com.cerner.scheduling.appointment.workflow.internal.input.broker.OrderFormatFieldsConversionUtility 2 0 2024-12-17 09:09:55.847
+!MESSAGE [The following unsupported field types were encountered while loading the appointment accept format (oe_format_Id = 25,390,505): DECIMAL (Label: Frequency Schedule Id, Field Meaning: FREQSCHEDID), LIST (Label: Frequency, Field Meaning: FREQ).]
+
+!ENTRY com.cerner.revenuecycle.common.configuration.internal.DefaultDocumentManager 2 0 2024-12-17 09:10:00.453
+!MESSAGE [configuration_document_service_time = 7 milliseconds]
+
+!ENTRY com.cerner.genesis.mpage.gadget.internal.MPagesURLResolver 2 0 2024-12-17 09:10:07.153
+!MESSAGE [MPages Gadget URL: https://ihcutea.cernerworkswan.com/discern/p351.ihc_ut.cernerasp.com/mpages/reports/ih_rc_launch_html?parameters=%5EMINE%5E%2C+%5ECHT%5E%2C+9672174.0%2C+0.0%2C+0.0%2C+0.0%2C+3919826.0%2C+22830782.0%2C+0.0%2C+%5Erevcycle.exe%5E%2C+%5Eih_mp_additional_demographics%5E%2C+0&login=BASIC]
+
+!ENTRY com.cerner.genesis.gadget.container.rcp.swt.RCPSWTGadgetContainer 4 0 2024-12-17 09:10:08.243
+!MESSAGE [An exception occurred while initializing the gadget][User: selewis, Domain: p351.ihc_ut.cernerasp.com, Version: 5.11.32]
+!STACK 0
+java.lang.IllegalStateException: Missing active perspective
+	at com.cerner.revenuecycle.ares.sections.DefaultAresSectionTitleDelegate.getPerspectiveDisplay(DefaultAresSectionTitleDelegate.java:149)
+	at com.cerner.revenuecycle.ares.sections.chart.ChartSectionContributor$ChartSectionTitleDelegate.getTitle(ChartSectionContributor.java:114)
+	at com.cerner.genesis.sections.client.PrototypeSection.getTitle(PrototypeSection.java:236)
+	at com.cerner.genesis.sections.client.manager.SectionManager.getTitle(SectionManager.java:651)
+	at com.cerner.genesis.sections.client.manager.SectionManager.setWindowLabel(SectionManager.java:1107)
+	at com.cerner.genesis.sections.client.manager.SectionManager.refreshApplicationTitle(SectionManager.java:1402)
+	at com.cerner.genesis.platform.manager.loki.LokiPlatformManager.gadgetWorkInProgressCompleted(LokiPlatformManager.java:1714)
+	at com.cerner.genesis.platform.manager.loki.internal.rcp.RCPPlatform.endWorkInProgress(RCPPlatform.java:228)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.endWorkflowInProgress(AddAppointmentGadget.java:808)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.createWorkflowController(AddAppointmentGadget.java:1504)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.createWorkflowController(AddAppointmentGadget.java:1495)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.displayWorkFlow(AddAppointmentGadget.java:1489)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.displayWorkFlow(AddAppointmentGadget.java:1428)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget.access$6200(AddAppointmentGadget.java:228)
+	at com.cerner.scheduling.appointment.gadget.add.AddAppointmentGadget$OpenCompleteFutureRequestGadgetCommunicationEventListener.handleGadgetCommunicationEvent(AddAppointmentGadget.java:2290)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.AresGadgetCommunicationManager.notifyGadgetCommunicationEventListeners(AresGadgetCommunicationManager.java:258)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.AbstractGadgetInitializationHandler.notifyGadgetCommunicationEventListeners(AbstractGadgetInitializationHandler.java:178)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.AbstractGadgetInitializationHandler.access$100(AbstractGadgetInitializationHandler.java:34)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.AbstractGadgetInitializationHandler$1.gadgetInitialized(AbstractGadgetInitializationHandler.java:141)
+	at com.cerner.genesis.gadget.container.rcp.swt.RCPSWTGadgetContainer.<init>(RCPSWTGadgetContainer.java:206)
+	at com.cerner.genesis.gadget.container.rcp.swt.RCPSWTGadgetContainer.<init>(RCPSWTGadgetContainer.java:109)
+	at com.cerner.genesis.gadget.rich.view.RichGadgetView.createContainer(RichGadgetView.java:339)
+	at com.cerner.genesis.gadget.rich.view.RichGadgetView$2.createRCPContainer(RichGadgetView.java:234)
+	at com.cerner.genesis.gadget.rich.view.internal.DefaultGadgetContextHandler.activate(DefaultGadgetContextHandler.java:251)
+	at com.cerner.genesis.gadget.rich.view.internal.DefaultGadgetContextHandler$1.sectionActivated(DefaultGadgetContextHandler.java:123)
+	at com.cerner.genesis.sections.client.manager.SectionManager.notifySectionActivated(SectionManager.java:802)
+	at com.cerner.genesis.sections.client.manager.SectionManager$SectionManagerBannerListener.bannerLoaded(SectionManager.java:2493)
+	at com.cerner.genesis.banner.ContextBanner.addListener(ContextBanner.java:47)
+	at com.cerner.genesis.sections.client.manager.SectionManager.openPerspectiveInSection(SectionManager.java:1066)
+	at com.cerner.genesis.platform.manager.loki.LokiPlatformManager.openPerspectiveInSection(LokiPlatformManager.java:1324)
+	at com.cerner.genesis.platform.manager.loki.LokiPlatformManager.openSection(LokiPlatformManager.java:1098)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.OpenRescheduleRelatedAppointmentsEventHandler.openSections(OpenRescheduleRelatedAppointmentsEventHandler.java:67)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.AbstractGadgetInitializationHandler.handleGadgetInitialization(AbstractGadgetInitializationHandler.java:157)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.OpenRescheduleRelatedAppointmentsEventHandler.execute(OpenRescheduleRelatedAppointmentsEventHandler.java:57)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.AresGadgetCommunicationManager.communicateGadgetEvent(AresGadgetCommunicationManager.java:190)
+	at com.cerner.scheduling.gadget.displacedqueue.internal.RescheduleRelatedAppointmentsUtility.rescheduleRelatedAppointments(RescheduleRelatedAppointmentsUtility.java:109)
+	at com.cerner.scheduling.gadget.displacedqueue.DisplacedQueueGadget$InternalAppointmentQueueRescheduleListener.rescheduleRelatedAppointments(DisplacedQueueGadget.java:346)
+	at com.cerner.scheduling.gadget.displacedqueue.DisplacedQueueGadget$InternalAppointmentQueueRescheduleListener.completeRequest(DisplacedQueueGadget.java:255)
+	at com.cerner.scheduling.ui.appointment.queue.AppointmentQueueComponent.notifyAppointmentQueueRescheduleListeners(AppointmentQueueComponent.java:1002)
+	at com.cerner.scheduling.ui.appointment.queue.AppointmentQueueComponent.completeRequest(AppointmentQueueComponent.java:391)
+	at com.cerner.scheduling.ui.appointment.queue.AppointmentQueueComponent$1.completeRequestSelected(AppointmentQueueComponent.java:524)
+	at com.cerner.scheduling.ui.appointment.queue.internal.view.AppointmentQueueComposite.notifyAppointmentQueueListeners(AppointmentQueueComposite.java:1261)
+	at com.cerner.scheduling.ui.appointment.queue.internal.view.AppointmentQueueComposite$12.handleEvent(AppointmentQueueComposite.java:763)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at com.cerner.genesis.app.client.RCPApplicationEventHandler.runEventQueue(RCPApplicationEventHandler.java:444)
+	at com.cerner.genesis.app.core.Application$2.run(Application.java:323)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.cerner.genesis.app.core.Application.start(Application.java:318)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.cerner.genesis.mpage.gadget.internal.MPagesURLResolver 2 0 2024-12-17 09:10:08.254
+!MESSAGE [MPages Gadget URL: https://ihcutea.cernerworkswan.com/discern/p351.ihc_ut.cernerasp.com/mpages/reports/ih_rc_launch_html?parameters=%5EMINE%5E%2C+%5ECHT%5E%2C+9672174.0%2C+0.0%2C+0.0%2C+0.0%2C+3919826.0%2C+22830782.0%2C+0.0%2C+%5Erevcycle.exe%5E%2C+%5Eih_mp_additional_demographics%5E%2C+0&login=BASIC]
+
+!ENTRY com.cerner.scheduling.ion.messages.internal.locks.broker.SchedulingLocksBroker 4 0 2024-12-17 09:10:13.082
+!MESSAGE [Placing the locks on the appointment with scheduling event mid com.cerner.mid.access.scheduling.activity.SchedulingEventMID[p351.ihc_ut.cernerasp.com:85866499] failed. The appointment is locked by another user.][User: selewis, Domain: p351.ihc_ut.cernerasp.com, Version: 5.11.32]
+!STACK 0
+com.cerner.scheduling.appointment.app.scheduled.exception.ScheduledAppointmentLockManagerException: Placing the Scheduling locks for all schedule appointments failed.
+	at com.cerner.scheduling.appointment.app.ml.internal.scheduled.lock.manager.ScheduledAppointmentLockManagerImpl.placeScheduledAppointmentLocks(ScheduledAppointmentLockManagerImpl.java:68)
+	at com.cerner.scheduling.ion.messages.internal.locks.broker.SchedulingLocksBroker.placeScheduledAppointmentLocks(SchedulingLocksBroker.java:103)
+	at com.cerner.scheduling.ion.messages.internal.locks.broker.SchedulingLocksBroker.placeSchedulingLocks(SchedulingLocksBroker.java:88)
+	at com.cerner.scheduling.ion.messages.internal.locks.runnable.PlaceScheduledAppointmentLocksRunnable.run(PlaceScheduledAppointmentLocksRunnable.java:74)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.cerner.ui.components.dialog.MeasuredDialog.open(MeasuredDialog.java:56)
+	at com.cerner.scheduling.reschedule.ui.internal.swt.SWTModalRescheduleRelatedAppointmentsComponent.open(SWTModalRescheduleRelatedAppointmentsComponent.java:230)
+	at com.cerner.scheduling.gadget.futureappointments.FutureAppointmentsGadget.rescheduleRelatedAppointments(FutureAppointmentsGadget.java:740)
+	at com.cerner.scheduling.gadget.futureappointments.FutureAppointmentsGadget.access$3000(FutureAppointmentsGadget.java:151)
+	at com.cerner.scheduling.gadget.futureappointments.FutureAppointmentsGadget$RescheduleAppointmentPerformedEventListener.handleGadgetCommunicationEvent(FutureAppointmentsGadget.java:965)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.AresGadgetCommunicationManager.notifyGadgetCommunicationEventListeners(AresGadgetCommunicationManager.java:258)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.handlers.access.GenericEventHandler.execute(GenericEventHandler.java:35)
+	at com.cerner.revenuecycle.ares.gadget.communication.internal.AresGadgetCommunicationManager.communicateGadgetEvent(AresGadgetCommunicationManager.java:190)
+	at com.cerner.scheduling.ui.appointment.index.commands.RescheduleAppointmentCommand.communicateRescheduleGadget(RescheduleAppointmentCommand.java:133)
+	at com.cerner.scheduling.ui.appointment.index.commands.RescheduleAppointmentCommand.rescheduleAppointmentSelected(RescheduleAppointmentCommand.java:75)
+	at com.cerner.scheduling.ui.appointment.index.commands.AbstractRescheduleAppointmentCommand.notifyRescheduleAppointmentselected(AbstractRescheduleAppointmentCommand.java:214)
+	at com.cerner.scheduling.ui.appointment.index.commands.AbstractRescheduleAppointmentCommand.execute(AbstractRescheduleAppointmentCommand.java:201)
+	at com.cerner.scheduling.ui.appointment.index.internal.view.FutureAppointmentsComposite$AppointmentCommandSelectionListener.handleEvent(FutureAppointmentsComposite.java:766)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at com.cerner.genesis.app.client.RCPApplicationEventHandler.runEventQueue(RCPApplicationEventHandler.java:444)
+	at com.cerner.genesis.app.core.Application$2.run(Application.java:323)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:361)
+	at com.cerner.genesis.app.core.Application.start(Application.java:318)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
